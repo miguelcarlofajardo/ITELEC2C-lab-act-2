@@ -1,0 +1,85 @@
+.navbar.navbar-expand-lg.bg-body-tertiary.justify-content-center {
+  background-color: white !important;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #343a40;
+}
+
+.navbar-toggler-icon {
+  color: #343a40;
+}
+
+.nav-item.active,
+.nav-item:hover {
+  background-color: #bf2525;
+  color: white;
+}
+
+.nav-item.dropdown:hover {
+  background-color: #bf2525;
+  color: white;
+}
+
+.nav-item.dropdown.active,
+.nav-item.dropdown:hover,
+.nav-item.dropdown.active > a {
+  background-color: #bf2525;
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: #f8f9fa;
+}
+
+.dropdown-item {
+  color: #343a40;
+}
+
+.dropdown-item:hover {
+  background-color: #bf2525;
+  color: #ffffff;
+}
+
+.form-control {
+  border-color: #bf2525;
+}
+
+.btn-outline-search {
+  border-color: gray;
+  color: white;
+}
+
+.btn-outline-search:hover {
+  background-color: gray;
+  color: #ffffff;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  background-color: #bf2525;
+  color: white;
+}
+
+.nav-item.active > a {
+  background-color: #bf2525;
+  color: white;
+}
+
+.nav-item .nav-link:hover,
+.nav-item .nav-link.active {
+  color: #bf2525;
+  color: white;
+}
+
+.search-icon {
+  color: gray;
+}
+
+.search-icon:hover {
+  background-color: none !important;
+  color: none !important;
+}

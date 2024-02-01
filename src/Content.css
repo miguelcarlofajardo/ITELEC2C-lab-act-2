@@ -1,0 +1,21 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 5rem !important;
+}
+
+.content-info p {
+  margin-bottom: 5rem;
+}
+
+.content-info button {
+  margin-top: 10px;
+}
