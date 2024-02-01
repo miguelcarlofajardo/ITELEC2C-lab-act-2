@@ -49,9 +49,37 @@ li {
 }
 
 .footer-social-item-1 {
-  margin-left: 40rem;
+  margin-left: 45rem;
 }
 
 .footer-social-item-2 {
   margin-left: 1rem;
+}
+
+.ast-footer-copyright {
+  margin-left: 10rem;
+}
+
+.ast-nav-menu.ast-flex.astra-footer-vertical-menu.astra-footer-tablet-vertical-menu.astra-footer-mobile-vertical-menu {
+  margin-left: 6rem;
+}
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #bf2525;
+  color: white;
+  border: none;
+  border-radius: 0px !important;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  padding: 10px !important;
+}
+
+#scrollToTopBtn:hover,
+#scrollToTopBtn:active {
+  background-color: black;
+  color: white;
 }
