@@ -6,6 +6,7 @@ import "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.mi
 import Menu from "./Menu";
 import Signup from "./Signup";
 import Footer from "./Footer";
+import ProductList from "./ProductList";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar></Navbar>
       <Signup></Signup>
       <Menu></Menu>
+      <ProductList></ProductList>
       <Footer></Footer>
     </div>
   );
